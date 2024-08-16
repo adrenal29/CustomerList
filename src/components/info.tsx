@@ -12,7 +12,7 @@ const CustomerDetails: React.FC<CustomerDetailsProps> = ({ customer }) => {
   useEffect(() => {
     const getPhotos = async () => {
       const newPhotos = await fetchPhotos();
-      setPhotos(newPhotos.slice(0, 9)); // Get 9 photos for the grid
+      setPhotos(newPhotos.slice(0, 9)); 
     };
 
     getPhotos(); // Initial photo fetch

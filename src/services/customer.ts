@@ -40,5 +40,5 @@ export const fetchCustomers = async (): Promise<Customer[]> => {
 export const fetchPhotos = async (): Promise<string[]> => {
   const response = await fetch("https://api.unsplash.com/photos/random?count=9&client_id=G73sfWIJBf0Ucr_u309muqtF-2e34jR5lgD0cBigRyU");
   const data = await response.json();
-  return data.map((photo: any) => photo.urls.small); // Return an array of photo URLs
+  return data.map((photo: any) => photo.urls.small); 
 };

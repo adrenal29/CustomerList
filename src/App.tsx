@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
-import { Menu, X } from "lucide-react"; // Import Lucide icons
+import { Menu, X } from "lucide-react"; 
 import CustomerCard from "./components/card.tsx";
 import CustomerDetails from "./components/info.tsx";
 import { fetchCustomers } from "./services/customer.ts";
