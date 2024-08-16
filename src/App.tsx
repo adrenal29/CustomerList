@@ -1,9 +1,9 @@
 import React, { useEffect, useState, useRef } from "react";
 import { Menu, X } from "lucide-react"; // Import Lucide icons
-import CustomerCard from "../../asg1/src/components/card.tsx";
-import CustomerDetails from "../../asg1/src/components/info.tsx";
-import { fetchCustomers } from "../../asg1/src/services/customer.ts";
-import { Customer } from "../../asg1/src/types/customer";
+import CustomerCard from "./components/card.tsx";
+import CustomerDetails from "./components/info.tsx";
+import { fetchCustomers } from "./services/customer.ts";
+import { Customer } from "./types/customer";
 import "./scroll.css";
 
 const App: React.FC = () => {
